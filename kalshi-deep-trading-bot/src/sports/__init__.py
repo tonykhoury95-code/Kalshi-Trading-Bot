@@ -1,0 +1,1 @@
+"""Sports arbitrage detection package."""

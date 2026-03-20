@@ -1,0 +1,834 @@
+2026-03-15 17:33:52.743 | INFO     | src.telemetry.logger:setup_logging:118 | Logging initialized (level=INFO, dir=./logs)
+2026-03-15 17:33:52.751 | INFO     | src.portfolio.ledger:__init__:29 | Ledger initialized at data/ledger.db
+2026-03-15 17:33:52.830 | INFO     | src.brokers.kalshi.client:__init__:62 | Kalshi client initialized (key loaded, base_url=https://demo-api.kalshi.co)
+2026-03-15 17:33:52.889 | INFO     | src.brokers.kalshi.client:connect:70 | Connected to Kalshi API at https://demo-api.kalshi.co
+2026-03-15 17:33:52.895 | INFO     | src.execution.executor:__init__:33 | Executor initialized in DRY RUN mode
+2026-03-15 17:33:52.896 | INFO     | src.portfolio.ledger:start_run:172 | Started run a14f0180-88da-4eae-8a4a-ddac9e26b04e (dry_run=True)
+2026-03-15 17:33:52.902 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 1...
+2026-03-15 17:33:53.296 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 1: 100 events (total: 100)
+2026-03-15 17:33:53.299 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 2...
+2026-03-15 17:33:53.452 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 2: 100 events (total: 200)
+2026-03-15 17:33:53.455 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 3...
+2026-03-15 17:33:53.634 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 3: 100 events (total: 300)
+2026-03-15 17:33:53.636 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 4...
+2026-03-15 17:33:53.868 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 4: 100 events (total: 400)
+2026-03-15 17:33:53.871 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 5...
+2026-03-15 17:33:54.063 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 5: 100 events (total: 500)
+2026-03-15 17:33:54.065 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 6...
+2026-03-15 17:33:54.182 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 6: 100 events (total: 600)
+2026-03-15 17:33:54.185 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 7...
+2026-03-15 17:33:54.290 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 7: 100 events (total: 700)
+2026-03-15 17:33:54.293 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 8...
+2026-03-15 17:33:54.498 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 8: 100 events (total: 800)
+2026-03-15 17:33:54.500 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 9...
+2026-03-15 17:33:54.633 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 9: 100 events (total: 900)
+2026-03-15 17:33:54.635 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 10...
+2026-03-15 17:33:54.736 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 10: 100 events (total: 1000)
+2026-03-15 17:33:54.738 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 11...
+2026-03-15 17:33:55.014 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 11: 100 events (total: 1100)
+2026-03-15 17:33:55.017 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 12...
+2026-03-15 17:33:55.204 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 12: 100 events (total: 1200)
+2026-03-15 17:33:55.206 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 13...
+2026-03-15 17:33:55.367 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 13: 100 events (total: 1300)
+2026-03-15 17:33:55.370 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 14...
+2026-03-15 17:33:55.595 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 14: 100 events (total: 1400)
+2026-03-15 17:33:55.597 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 15...
+2026-03-15 17:33:55.973 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 15: 100 events (total: 1500)
+2026-03-15 17:33:55.975 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 16...
+2026-03-15 17:33:56.335 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 16: 100 events (total: 1600)
+2026-03-15 17:33:56.336 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 17...
+2026-03-15 17:33:56.590 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 17: 100 events (total: 1700)
+2026-03-15 17:33:56.592 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 18...
+2026-03-15 17:33:56.733 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 18: 100 events (total: 1800)
+2026-03-15 17:33:56.734 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 19...
+2026-03-15 17:33:57.005 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 19: 100 events (total: 1900)
+2026-03-15 17:33:57.007 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 20...
+2026-03-15 17:33:57.408 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 20: 100 events (total: 2000)
+2026-03-15 17:33:57.410 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 21...
+2026-03-15 17:33:57.715 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 21: 100 events (total: 2100)
+2026-03-15 17:33:57.717 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 22...
+2026-03-15 17:33:58.009 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 22: 100 events (total: 2200)
+2026-03-15 17:33:58.011 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 23...
+2026-03-15 17:33:58.191 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 23: 100 events (total: 2300)
+2026-03-15 17:33:58.193 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 24...
+2026-03-15 17:33:58.461 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 24: 100 events (total: 2400)
+2026-03-15 17:33:58.463 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 25...
+2026-03-15 17:33:58.809 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 25: 100 events (total: 2500)
+2026-03-15 17:33:58.811 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 26...
+2026-03-15 17:33:59.053 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 26: 100 events (total: 2600)
+2026-03-15 17:33:59.055 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 27...
+2026-03-15 17:33:59.441 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 27: 100 events (total: 2700)
+2026-03-15 17:33:59.443 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 28...
+2026-03-15 17:33:59.637 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 28: 100 events (total: 2800)
+2026-03-15 17:33:59.640 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 29...
+2026-03-15 17:33:59.832 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 29: 100 events (total: 2900)
+2026-03-15 17:33:59.833 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 30...
+2026-03-15 17:33:59.972 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 30: 100 events (total: 3000)
+2026-03-15 17:33:59.975 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 31...
+2026-03-15 17:34:00.124 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 31: 100 events (total: 3100)
+2026-03-15 17:34:00.127 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 32...
+2026-03-15 17:34:00.389 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 32: 100 events (total: 3200)
+2026-03-15 17:34:00.393 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 33...
+2026-03-15 17:34:00.533 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 33: 100 events (total: 3300)
+2026-03-15 17:34:00.536 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 34...
+2026-03-15 17:34:00.672 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 34: 100 events (total: 3400)
+2026-03-15 17:34:00.674 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 35...
+2026-03-15 17:34:00.906 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 35: 100 events (total: 3500)
+2026-03-15 17:34:00.909 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 36...
+2026-03-15 17:34:01.113 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 36: 100 events (total: 3600)
+2026-03-15 17:34:01.115 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 37...
+2026-03-15 17:34:01.557 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 37: 100 events (total: 3700)
+2026-03-15 17:34:01.559 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 38...
+2026-03-15 17:34:02.306 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 38: 100 events (total: 3800)
+2026-03-15 17:34:02.308 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 39...
+2026-03-15 17:34:02.715 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 39: 100 events (total: 3900)
+2026-03-15 17:34:02.717 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 40...
+2026-03-15 17:34:03.145 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 40: 100 events (total: 4000)
+2026-03-15 17:34:03.147 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 41...
+2026-03-15 17:34:03.398 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 41: 100 events (total: 4100)
+2026-03-15 17:34:03.402 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 42...
+2026-03-15 17:34:03.543 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 42: 100 events (total: 4200)
+2026-03-15 17:34:03.546 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 43...
+2026-03-15 17:34:03.748 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 43: 100 events (total: 4300)
+2026-03-15 17:34:03.750 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 44...
+2026-03-15 17:34:04.024 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 44: 100 events (total: 4400)
+2026-03-15 17:34:04.026 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 45...
+2026-03-15 17:34:04.133 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 45: 100 events (total: 4500)
+2026-03-15 17:34:04.136 | INFO     | src.brokers.kalshi.client:_fetch_all_events:239 | Fetching events page 46...
+2026-03-15 17:34:04.231 | INFO     | src.brokers.kalshi.client:_fetch_all_events:256 | Page 46: 16 events (total: 4516)
+2026-03-15 17:34:04.232 | INFO     | src.brokers.kalshi.client:_fetch_all_events:267 | Fetched 4516 total events from 46 pages
+2026-03-15 17:34:04.438 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXXRPD-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXXRP-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXXLMD-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXXLM-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXSOLE-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXSOLD-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXLTCD-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXLTC-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXLINKD-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXLINK-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXETHD-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXETH-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXDOTD-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXDOT-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXDOGED-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXDOGE-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXBTCD-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXBTC-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXBCHD-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXAVAXD-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.439 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXAVAX-26MAR1521 strikes in 25.9m, skipping
+2026-03-15 17:34:04.440 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXXRP15M-26MAR152045 strikes in 10.9m, skipping
+2026-03-15 17:34:04.440 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXSOL15M-26MAR152045 strikes in 10.9m, skipping
+2026-03-15 17:34:04.440 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXETH15M-26MAR152045 strikes in 10.9m, skipping
+2026-03-15 17:34:04.440 | INFO     | src.brokers.kalshi.client:get_events:163 | Event KXBTC15M-26MAR152045 strikes in 10.9m, skipping
+2026-03-15 17:34:04.448 | INFO     | src.brokers.kalshi.client:get_events:215 | Retrieved 4491 total events, returning top 150 by 24h volume
+2026-03-15 17:34:04.496 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXELONMARS-99: volume 0 < min 1000
+2026-03-15 17:34:04.496 | INFO     | src.strategies.filters:filter_markets:124 | Event KXELONMARS-99: 0/1 markets passed filters
+2026-03-15 17:34:04.498 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEWPOPE-70-FAMB: volume 0 < min 1000
+2026-03-15 17:34:04.498 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEWPOPE-70-MZUP: volume 0 < min 1000
+2026-03-15 17:34:04.498 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEWPOPE-70-PPIZ: volume 0 < min 1000
+2026-03-15 17:34:04.498 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEWPOPE-70-PERD: volume 0 < min 1000
+2026-03-15 17:34:04.498 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEWPOPE-70-PPAR: volume 0 < min 1000
+2026-03-15 17:34:04.498 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEWPOPE-70-AARB: volume 0 < min 1000
+2026-03-15 17:34:04.498 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEWPOPE-70-LANT: volume 0 < min 1000
+2026-03-15 17:34:04.498 | INFO     | src.strategies.filters:filter_markets:124 | Event KXNEWPOPE-70: 0/7 markets passed filters
+2026-03-15 17:34:04.503 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXWARMING-50: volume 0 < min 1000
+2026-03-15 17:34:04.503 | INFO     | src.strategies.filters:filter_markets:124 | Event KXWARMING-50: 0/1 markets passed filters
+2026-03-15 17:34:04.503 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXMARSVRAIL-50: volume 0 < min 1000
+2026-03-15 17:34:04.503 | INFO     | src.strategies.filters:filter_markets:124 | Event KXMARSVRAIL-50: 0/1 markets passed filters
+2026-03-15 17:34:04.504 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXERUPTSUPER-0-50JAN01: volume 0 < min 1000
+2026-03-15 17:34:04.504 | INFO     | src.strategies.filters:filter_markets:124 | Event KXERUPTSUPER-0: 0/1 markets passed filters
+2026-03-15 17:34:04.504 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXCOLONIZEMARS-50: volume 0 < min 1000
+2026-03-15 17:34:04.504 | INFO     | src.strategies.filters:filter_markets:124 | Event KXCOLONIZEMARS-50: 0/1 markets passed filters
+2026-03-15 17:34:04.505 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERSONPRESMAM-45: volume 0 < min 1000
+2026-03-15 17:34:04.505 | INFO     | src.strategies.filters:filter_markets:124 | Event KXPERSONPRESMAM-45: 0/1 markets passed filters
+2026-03-15 17:34:04.506 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXXISUCCESSOR-45JAN01-CJIN: volume 0 < min 1000
+2026-03-15 17:34:04.506 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXXISUCCESSOR-45JAN01-ZGUO: volume 0 < min 1000
+2026-03-15 17:34:04.506 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXXISUCCESSOR-45JAN01-CQI: volume 0 < min 1000
+2026-03-15 17:34:04.506 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXXISUCCESSOR-45JAN01-YLI: volume 0 < min 1000
+2026-03-15 17:34:04.506 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXXISUCCESSOR-45JAN01-ZLEJ: volume 0 < min 1000
+2026-03-15 17:34:04.506 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXXISUCCESSOR-45JAN01-CMIN: volume 0 < min 1000
+2026-03-15 17:34:04.506 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXXISUCCESSOR-45JAN01-DXUE: volume 0 < min 1000
+2026-03-15 17:34:04.506 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXXISUCCESSOR-45JAN01-HLIF: volume 0 < min 1000
+2026-03-15 17:34:04.506 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXXISUCCESSOR-45JAN01-LGAN: volume 0 < min 1000
+2026-03-15 17:34:04.506 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXXISUCCESSOR-45JAN01-LQIA: volume 0 < min 1000
+2026-03-15 17:34:04.506 | INFO     | src.strategies.filters:filter_markets:124 | Event KXXISUCCESSOR-45JAN01: 0/10 markets passed filters
+2026-03-15 17:34:04.510 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERSONPRESFUENTES-45: volume 0 < min 1000
+2026-03-15 17:34:04.510 | INFO     | src.strategies.filters:filter_markets:124 | Event KXPERSONPRESFUENTES-45: 0/1 markets passed filters
+2026-03-15 17:34:04.511 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTISRAELPM-45JAN01-YCOH: volume 0 < min 1000
+2026-03-15 17:34:04.511 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTISRAELPM-45JAN01-ALIE: volume 0 < min 1000
+2026-03-15 17:34:04.511 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTISRAELPM-45JAN01-BGAN: volume 0 < min 1000
+2026-03-15 17:34:04.511 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTISRAELPM-45JAN01-GEIS: volume 0 < min 1000
+2026-03-15 17:34:04.511 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTISRAELPM-45JAN01-BSMO: volume 0 < min 1000
+2026-03-15 17:34:04.511 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTISRAELPM-45JAN01-YLAP: volume 0 < min 1000
+2026-03-15 17:34:04.511 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTISRAELPM-45JAN01-IKAT: volume 0 < min 1000
+2026-03-15 17:34:04.511 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTISRAELPM-45JAN01-YLEV: volume 0 < min 1000
+2026-03-15 17:34:04.511 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTISRAELPM-45JAN01-YGOL: volume 0 < min 1000
+2026-03-15 17:34:04.511 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTISRAELPM-45JAN01-YGAL: volume 0 < min 1000
+2026-03-15 17:34:04.511 | INFO     | src.strategies.filters:filter_markets:124 | Event KXNEXTISRAELPM-45JAN01: 0/10 markets passed filters
+2026-03-15 17:34:04.515 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXLALEADEROUT-45JAN01-COL: volume 0 < min 1000
+2026-03-15 17:34:04.515 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXLALEADEROUT-45JAN01-MEX: volume 0 < min 1000
+2026-03-15 17:34:04.515 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXLALEADEROUT-45JAN01-DOM: volume 0 < min 1000
+2026-03-15 17:34:04.516 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXLALEADEROUT-45JAN01-BOL: volume 0 < min 1000
+2026-03-15 17:34:04.516 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXLALEADEROUT-45JAN01-PAN: volume 0 < min 1000
+2026-03-15 17:34:04.516 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXLALEADEROUT-45JAN01-ELS: volume 0 < min 1000
+2026-03-15 17:34:04.516 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXLALEADEROUT-45JAN01-ARG: volume 0 < min 1000
+2026-03-15 17:34:04.516 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXLALEADEROUT-45JAN01-JOS: volume 0 < min 1000
+2026-03-15 17:34:04.516 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXLALEADEROUT-45JAN01-BR: volume 0 < min 1000
+2026-03-15 17:34:04.516 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXLALEADEROUT-45JAN01-VEN: volume 0 < min 1000
+2026-03-15 17:34:04.516 | INFO     | src.strategies.filters:filter_markets:124 | Event KXLALEADEROUT-45JAN01: 0/10 markets passed filters
+2026-03-15 17:34:04.520 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXG7LEADEROUT-45JAN01-FMER: volume 0 < min 1000
+2026-03-15 17:34:04.520 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXG7LEADEROUT-45JAN01-DJT: volume 0 < min 1000
+2026-03-15 17:34:04.520 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXG7LEADEROUT-45JAN01-STAK: volume 0 < min 1000
+2026-03-15 17:34:04.520 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXG7LEADEROUT-45JAN01-MCAR: volume 0 < min 1000
+2026-03-15 17:34:04.520 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXG7LEADEROUT-45JAN01-EMAC: volume 0 < min 1000
+2026-03-15 17:34:04.520 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXG7LEADEROUT-45JAN01-GMEL: volume 0 < min 1000
+2026-03-15 17:34:04.520 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXG7LEADEROUT-45JAN01-KSTA: volume 0 < min 1000
+2026-03-15 17:34:04.520 | INFO     | src.strategies.filters:filter_markets:124 | Event KXG7LEADEROUT-45JAN01: 0/7 markets passed filters
+2026-03-15 17:34:04.523 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXRAMPBREX-40-BREX: volume 0 < min 1000
+2026-03-15 17:34:04.523 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXRAMPBREX-40-RAMP: volume 0 < min 1000
+2026-03-15 17:34:04.523 | INFO     | src.strategies.filters:filter_markets:124 | Event KXRAMPBREX-40: 0/2 markets passed filters
+2026-03-15 17:34:04.524 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXOAIANTH-40-ANTH: volume 0 < min 1000
+2026-03-15 17:34:04.524 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXOAIANTH-40-OAI: volume 0 < min 1000
+2026-03-15 17:34:04.524 | INFO     | src.strategies.filters:filter_markets:124 | Event KXOAIANTH-40: 0/2 markets passed filters
+2026-03-15 17:34:04.525 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXFUSION-40-JAN01: volume 0 < min 1000
+2026-03-15 17:34:04.525 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXFUSION-30-JAN01: volume 0 < min 1000
+2026-03-15 17:34:04.525 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXFUSION-35-JAN01: volume 0 < min 1000
+2026-03-15 17:34:04.525 | INFO     | src.strategies.filters:filter_markets:124 | Event KXFUSION: 0/3 markets passed filters
+2026-03-15 17:34:04.527 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXDEELRIP-40-DEEL: volume 0 < min 1000
+2026-03-15 17:34:04.527 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXDEELRIP-40-RIPP: volume 0 < min 1000
+2026-03-15 17:34:04.527 | INFO     | src.strategies.filters:filter_markets:124 | Event KXDEELRIP-40: 0/2 markets passed filters
+2026-03-15 17:34:04.528 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPOPCHANGESTATE10-35: volume 0 < min 1000
+2026-03-15 17:34:04.528 | INFO     | src.strategies.filters:filter_markets:124 | Event KXPOPCHANGESTATE10-35: 0/1 markets passed filters
+2026-03-15 17:34:04.529 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXEARTHQUAKECALIFORNIA-35: volume 0 < min 1000
+2026-03-15 17:34:04.529 | INFO     | src.strategies.filters:filter_markets:124 | Event KXEARTHQUAKECALIFORNIA-35: 0/1 markets passed filters
+2026-03-15 17:34:04.529 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXROBOTMARS-35: volume 0 < min 1000
+2026-03-15 17:34:04.529 | INFO     | src.strategies.filters:filter_markets:124 | Event KXROBOTMARS-35: 0/1 markets passed filters
+2026-03-15 17:34:04.530 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMBONDSONG-35-TAY: volume 0 < min 1000
+2026-03-15 17:34:04.530 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMBONDSONG-35-HAR: volume 0 < min 1000
+2026-03-15 17:34:04.530 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMBONDSONG-35-LAD: volume 0 < min 1000
+2026-03-15 17:34:04.530 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMBONDSONG-35-WEE: volume 0 < min 1000
+2026-03-15 17:34:04.530 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMBONDSONG-35-U2: volume 0 < min 1000
+2026-03-15 17:34:04.530 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMBONDSONG-35-ELT: volume 0 < min 1000
+2026-03-15 17:34:04.530 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMBONDSONG-35-LAN: volume 0 < min 1000
+2026-03-15 17:34:04.530 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMBONDSONG-35-SAM: volume 0 < min 1000
+2026-03-15 17:34:04.530 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMBONDSONG-35-ED: volume 0 < min 1000
+2026-03-15 17:34:04.530 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMBONDSONG-35-CHA: volume 0 < min 1000
+2026-03-15 17:34:04.530 | INFO     | src.strategies.filters:filter_markets:124 | Event KXPERFORMBONDSONG-35: 0/10 markets passed filters
+2026-03-15 17:34:04.535 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEWPOPE-35-RLEO: volume 0 < min 1000
+2026-03-15 17:34:04.535 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEWPOPE-35-MZUP: volume 0 < min 1000
+2026-03-15 17:34:04.535 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEWPOPE-35-PERD: volume 0 < min 1000
+2026-03-15 17:34:04.535 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEWPOPE-35-PPAR: volume 0 < min 1000
+2026-03-15 17:34:04.535 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEWPOPE-35-LANT: volume 0 < min 1000
+2026-03-15 17:34:04.535 | INFO     | src.strategies.filters:filter_markets:124 | Event KXNEWPOPE-35: 0/5 markets passed filters
+2026-03-15 17:34:04.537 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXJOHNNYDEPP-35-JOH: volume 0 < min 1000
+2026-03-15 17:34:04.537 | INFO     | src.strategies.filters:filter_markets:124 | Event KXJOHNNYDEPP-35: 0/1 markets passed filters
+2026-03-15 17:34:04.537 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXBRUVSEAT-35: volume 0 < min 1000
+2026-03-15 17:34:04.537 | INFO     | src.strategies.filters:filter_markets:124 | Event KXBRUVSEAT-35: 0/1 markets passed filters
+2026-03-15 17:34:04.538 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAFRICALEADEROUT-35-AT: volume 0 < min 1000
+2026-03-15 17:34:04.538 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAFRICALEADEROUT-35-BT: volume 0 < min 1000
+2026-03-15 17:34:04.538 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAFRICALEADEROUT-35-EM: volume 0 < min 1000
+2026-03-15 17:34:04.538 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAFRICALEADEROUT-35-FT: volume 0 < min 1000
+2026-03-15 17:34:04.538 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAFRICALEADEROUT-35-WR: volume 0 < min 1000
+2026-03-15 17:34:04.538 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAFRICALEADEROUT-35-TAS: volume 0 < min 1000
+2026-03-15 17:34:04.538 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAFRICALEADEROUT-35-CR: volume 0 < min 1000
+2026-03-15 17:34:04.538 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAFRICALEADEROUT-35-PK: volume 0 < min 1000
+2026-03-15 17:34:04.538 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAFRICALEADEROUT-35-JM: volume 0 < min 1000
+2026-03-15 17:34:04.538 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAFRICALEADEROUT-35-AFES: volume 0 < min 1000
+2026-03-15 17:34:04.538 | INFO     | src.strategies.filters:filter_markets:124 | Event KXAFRICALEADEROUT-35: 0/10 markets passed filters
+2026-03-15 17:34:04.543 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXACTORSONNYCROCKETT-35-RIC: volume 0 < min 1000
+2026-03-15 17:34:04.543 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXACTORSONNYCROCKETT-35-TOM: volume 0 < min 1000
+2026-03-15 17:34:04.543 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXACTORSONNYCROCKETT-35-OSC: volume 0 < min 1000
+2026-03-15 17:34:04.543 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXACTORSONNYCROCKETT-35-RYA: volume 0 < min 1000
+2026-03-15 17:34:04.543 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXACTORSONNYCROCKETT-35-TAY: volume 0 < min 1000
+2026-03-15 17:34:04.543 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXACTORSONNYCROCKETT-35-GAR: volume 0 < min 1000
+2026-03-15 17:34:04.543 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXACTORSONNYCROCKETT-35-PED: volume 0 < min 1000
+2026-03-15 17:34:04.543 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXACTORSONNYCROCKETT-35-JAK: volume 0 < min 1000
+2026-03-15 17:34:04.543 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXACTORSONNYCROCKETT-35-GLE: volume 0 < min 1000
+2026-03-15 17:34:04.543 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXACTORSONNYCROCKETT-35-MIL: volume 0 < min 1000
+2026-03-15 17:34:04.543 | INFO     | src.strategies.filters:filter_markets:124 | Event KXACTORSONNYCROCKETT-35: 0/10 markets passed filters
+2026-03-15 17:34:04.547 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXFDATYPE1DIABETES-33: volume 0 < min 1000
+2026-03-15 17:34:04.547 | INFO     | src.strategies.filters:filter_markets:124 | Event KXFDATYPE1DIABETES-33: 0/1 markets passed filters
+2026-03-15 17:34:04.548 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected EUCLIMATE-2030: volume 0 < min 1000
+2026-03-15 17:34:04.548 | INFO     | src.strategies.filters:filter_markets:124 | Event EUCLIMATE: 0/1 markets passed filters
+2026-03-15 17:34:04.548 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected INDIACLIMATE-30: volume 0 < min 1000
+2026-03-15 17:34:04.548 | INFO     | src.strategies.filters:filter_markets:124 | Event INDIACLIMATE-30: 0/1 markets passed filters
+2026-03-15 17:34:04.549 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTSPEAKER-31-SSCA: volume 0 < min 1000
+2026-03-15 17:34:04.549 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTSPEAKER-31-HJEF: volume 0 < min 1000
+2026-03-15 17:34:04.549 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXNEXTSPEAKER-31-JJOR: volume 0 < min 1000
+2026-03-15 17:34:04.549 | INFO     | src.strategies.filters:filter_markets:124 | Event KXNEXTSPEAKER-31: 0/3 markets passed filters
+2026-03-15 17:34:04.551 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXMOONMAN-31-E: volume 0 < min 1000
+2026-03-15 17:34:04.551 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXMOONMAN-31-I: volume 0 < min 1000
+2026-03-15 17:34:04.551 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXMOONMAN-31-PRC: volume 0 < min 1000
+2026-03-15 17:34:04.551 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXMOONMAN-31-R: volume 0 < min 1000
+2026-03-15 17:34:04.551 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXMOONMAN-31-USA: volume 0 < min 1000
+2026-03-15 17:34:04.551 | INFO     | src.strategies.filters:filter_markets:124 | Event KXMOONMAN-31: 0/5 markets passed filters
+2026-03-15 17:34:04.553 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAGICO-COMP-27Q4: volume 0 < min 1000
+2026-03-15 17:34:04.553 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAGICO-COMP-29: volume 0 < min 1000
+2026-03-15 17:34:04.553 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAGICO-COMP-26Q3: volume 0 < min 1000
+2026-03-15 17:34:04.553 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAGICO-COMP-27Q3: volume 0 < min 1000
+2026-03-15 17:34:04.553 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAGICO-COMP-28Q2: volume 0 < min 1000
+2026-03-15 17:34:04.553 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAGICO-COMP-28Q3: volume 0 < min 1000
+2026-03-15 17:34:04.553 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAGICO-COMP-26Q2: volume 0 < min 1000
+2026-03-15 17:34:04.553 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAGICO-COMP-30: volume 0 < min 1000
+2026-03-15 17:34:04.553 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAGICO-COMP-27Q2: volume 0 < min 1000
+2026-03-15 17:34:04.553 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXAGICO-COMP-27Q1: volume 0 < min 1000
+2026-03-15 17:34:04.553 | INFO     | src.strategies.filters:filter_markets:124 | Event KXAGICO-COMP: 0/10 markets passed filters
+2026-03-15 17:34:04.558 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected USCLIMATE-2030: volume 0 < min 1000
+2026-03-15 17:34:04.558 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected USCLIMATE-2025: volume 0 < min 1000
+2026-03-15 17:34:04.558 | INFO     | src.strategies.filters:filter_markets:124 | Event USCLIMATE: 0/2 markets passed filters
+2026-03-15 17:34:04.559 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTVSEASONRELEASETHELASTOFUS-26-OCT: volume 0 < min 1000
+2026-03-15 17:34:04.559 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTVSEASONRELEASETHELASTOFUS-27-JUL: volume 0 < min 1000
+2026-03-15 17:34:04.559 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTVSEASONRELEASETHELASTOFUS-28-JAN: volume 0 < min 1000
+2026-03-15 17:34:04.559 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTVSEASONRELEASETHELASTOFUS-26-APR: volume 0 < min 1000
+2026-03-15 17:34:04.559 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTVSEASONRELEASETHELASTOFUS-26-JUL: volume 0 < min 1000
+2026-03-15 17:34:04.559 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTVSEASONRELEASETHELASTOFUS-27-APR: volume 0 < min 1000
+2026-03-15 17:34:04.559 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTVSEASONRELEASETHELASTOFUS-27-JAN: volume 0 < min 1000
+2026-03-15 17:34:04.559 | INFO     | src.strategies.filters:filter_markets:124 | Event KXTVSEASONRELEASETHELASTOFUS: 0/7 markets passed filters
+2026-03-15 17:34:04.562 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPRIMEENGCONSUMPTION-30-BIOFUEL: volume 0 < min 1000
+2026-03-15 17:34:04.562 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPRIMEENGCONSUMPTION-30-BIOMASS: volume 0 < min 1000
+2026-03-15 17:34:04.562 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPRIMEENGCONSUMPTION-30-GAS: volume 0 < min 1000
+2026-03-15 17:34:04.562 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPRIMEENGCONSUMPTION-30-HYDROPOWER: volume 0 < min 1000
+2026-03-15 17:34:04.563 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPRIMEENGCONSUMPTION-30-WIND: volume 0 < min 1000
+2026-03-15 17:34:04.563 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPRIMEENGCONSUMPTION-30-SOLAR: volume 0 < min 1000
+2026-03-15 17:34:04.563 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPRIMEENGCONSUMPTION-30-COAL: volume 0 < min 1000
+2026-03-15 17:34:04.563 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPRIMEENGCONSUMPTION-30-NUCLEAR: volume 0 < min 1000
+2026-03-15 17:34:04.563 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPRIMEENGCONSUMPTION-30-RENEWABLE: volume 0 < min 1000
+2026-03-15 17:34:04.563 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPRIMEENGCONSUMPTION-30-OIL: volume 0 < min 1000
+2026-03-15 17:34:04.563 | INFO     | src.strategies.filters:filter_markets:124 | Event KXPRIMEENGCONSUMPTION-30: 0/10 markets passed filters
+2026-03-15 17:34:04.568 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXACTORTOMCRUZ-30-TOM: volume 0 < min 1000
+2026-03-15 17:34:04.568 | INFO     | src.strategies.filters:filter_markets:124 | Event KXACTORTOMCRUZ-30: 0/1 markets passed filters
+2026-03-15 17:34:04.568 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXINDIANAPOWELL-30-GLE: volume 0 < min 1000
+2026-03-15 17:34:04.568 | INFO     | src.strategies.filters:filter_markets:124 | Event KXINDIANAPOWELL-30: 0/1 markets passed filters
+2026-03-15 17:34:04.569 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXCANADACUP-30: volume 0 < min 1000
+2026-03-15 17:34:04.569 | INFO     | src.strategies.filters:filter_markets:124 | Event KXCANADACUP-30: 0/1 markets passed filters
+2026-03-15 17:34:04.569 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTIMEDECADE20S-30-SALT: volume 0 < min 1000
+2026-03-15 17:34:04.569 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTIMEDECADE20S-30-TAY: volume 0 < min 1000
+2026-03-15 17:34:04.569 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTIMEDECADE20S-30-JHUA: volume 0 < min 1000
+2026-03-15 17:34:04.570 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTIMEDECADE20S-30-XJIN: volume 0 < min 1000
+2026-03-15 17:34:04.570 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTIMEDECADE20S-30-VZEL: volume 0 < min 1000
+2026-03-15 17:34:04.570 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTIMEDECADE20S-30-EMUS: volume 0 < min 1000
+2026-03-15 17:34:04.570 | INFO     | src.strategies.filters:filter_markets:124 | Event KXTIMEDECADE20S-30: 0/6 markets passed filters
+2026-03-15 17:34:04.572 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected EVSHARE-30JAN-50: volume 0 < min 1000
+2026-03-15 17:34:04.572 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected EVSHARE-30JAN-10: volume 0 < min 1000
+2026-03-15 17:34:04.572 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected EVSHARE-30JAN-20: volume 0 < min 1000
+2026-03-15 17:34:04.573 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected EVSHARE-30JAN-30: volume 0 < min 1000
+2026-03-15 17:34:04.573 | INFO     | src.strategies.filters:filter_markets:124 | Event EVSHARE-30JAN: 0/4 markets passed filters
+2026-03-15 17:34:04.574 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXU3MAX-30-8: volume 0 < min 1000
+2026-03-15 17:34:04.574 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXU3MAX-30-9: volume 0 < min 1000
+2026-03-15 17:34:04.575 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXU3MAX-30-7: volume 0 < min 1000
+2026-03-15 17:34:04.575 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXU3MAX-30-15: volume 0 < min 1000
+2026-03-15 17:34:04.575 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXU3MAX-30-20: volume 0 < min 1000
+2026-03-15 17:34:04.575 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXU3MAX-30-12: volume 0 < min 1000
+2026-03-15 17:34:04.575 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXU3MAX-30-10: volume 0 < min 1000
+2026-03-15 17:34:04.575 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXU3MAX-30-5: volume 0 < min 1000
+2026-03-15 17:34:04.575 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXU3MAX-30-6: volume 0 < min 1000
+2026-03-15 17:34:04.575 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXU3MAX-30-17: volume 0 < min 1000
+2026-03-15 17:34:04.575 | INFO     | src.strategies.filters:filter_markets:124 | Event KXU3MAX-30: 0/10 markets passed filters
+2026-03-15 17:34:04.579 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLEBRITNEY-MIL: volume 0 < min 1000
+2026-03-15 17:34:04.580 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLEBRITNEY-FLO: volume 0 < min 1000
+2026-03-15 17:34:04.580 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLEBRITNEY-SYD: volume 0 < min 1000
+2026-03-15 17:34:04.580 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLEBRITNEY-EMM: volume 0 < min 1000
+2026-03-15 17:34:04.580 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLEBRITNEY-CHL: volume 0 < min 1000
+2026-03-15 17:34:04.580 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLEBRITNEY-SAB: volume 0 < min 1000
+2026-03-15 17:34:04.580 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLEBRITNEY-ADD: volume 0 < min 1000
+2026-03-15 17:34:04.580 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLEBRITNEY-ANY: volume 0 < min 1000
+2026-03-15 17:34:04.580 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLEBRITNEY-MAR: volume 0 < min 1000
+2026-03-15 17:34:04.580 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLEBRITNEY-OLI: volume 0 < min 1000
+2026-03-15 17:34:04.580 | INFO     | src.strategies.filters:filter_markets:124 | Event KXPERFORMROLEBRITNEY: 0/10 markets passed filters
+2026-03-15 17:34:04.584 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-VILLAIN-OSC: volume 0 < min 1000
+2026-03-15 17:34:04.584 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-VILLAIN-IDR: volume 0 < min 1000
+2026-03-15 17:34:04.584 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-VILLAIN-BAR: volume 0 < min 1000
+2026-03-15 17:34:04.584 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-VILLAIN-ADA: volume 0 < min 1000
+2026-03-15 17:34:04.584 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-VILLAIN-PET: volume 0 < min 1000
+2026-03-15 17:34:04.584 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-VILLAIN-CIL: volume 0 < min 1000
+2026-03-15 17:34:04.584 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-VILLAIN-ROS: volume 0 < min 1000
+2026-03-15 17:34:04.584 | INFO     | src.strategies.filters:filter_markets:124 | Event KXPERFORMROLE007-VILLAIN: 0/7 markets passed filters
+2026-03-15 17:34:04.587 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-Q-DEV: volume 0 < min 1000
+2026-03-15 17:34:04.588 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-Q-TOM: volume 0 < min 1000
+2026-03-15 17:34:04.588 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-Q-BEN: volume 0 < min 1000
+2026-03-15 17:34:04.588 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-Q-AND: volume 0 < min 1000
+2026-03-15 17:34:04.588 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-Q-RIC: volume 0 < min 1000
+2026-03-15 17:34:04.588 | INFO     | src.strategies.filters:filter_markets:124 | Event KXPERFORMROLE007-Q: 0/5 markets passed filters
+2026-03-15 17:34:04.590 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-MONEYPENNY-JUN: volume 0 < min 1000
+2026-03-15 17:34:04.590 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-MONEYPENNY-PHO: volume 0 < min 1000
+2026-03-15 17:34:04.590 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-MONEYPENNY-MEG: volume 0 < min 1000
+2026-03-15 17:34:04.590 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-MONEYPENNY-ALI: volume 0 < min 1000
+2026-03-15 17:34:04.590 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-MONEYPENNY-JOD: volume 0 < min 1000
+2026-03-15 17:34:04.590 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-MONEYPENNY-NAO: volume 0 < min 1000
+2026-03-15 17:34:04.590 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-MONEYPENNY-EMM: volume 0 < min 1000
+2026-03-15 17:34:04.590 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-MONEYPENNY-JODI: volume 0 < min 1000
+2026-03-15 17:34:04.590 | INFO     | src.strategies.filters:filter_markets:124 | Event KXPERFORMROLE007-MONEYPENNY: 0/8 markets passed filters
+2026-03-15 17:34:04.594 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-M-RAL: volume 0 < min 1000
+2026-03-15 17:34:04.594 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-M-IDR: volume 0 < min 1000
+2026-03-15 17:34:04.594 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-M-OLI: volume 0 < min 1000
+2026-03-15 17:34:04.594 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-M-CHA: volume 0 < min 1000
+2026-03-15 17:34:04.594 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-M-MAR: volume 0 < min 1000
+2026-03-15 17:34:04.594 | INFO     | src.strategies.filters:filter_markets:124 | Event KXPERFORMROLE007-M: 0/5 markets passed filters
+2026-03-15 17:34:04.596 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-FELIX-ALB: volume 0 < min 1000
+2026-03-15 17:34:04.596 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-FELIX-CHI: volume 0 < min 1000
+2026-03-15 17:34:04.596 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-FELIX-WYA: volume 0 < min 1000
+2026-03-15 17:34:04.596 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-FELIX-STE: volume 0 < min 1000
+2026-03-15 17:34:04.596 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-FELIX-SET: volume 0 < min 1000
+2026-03-15 17:34:04.596 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-FELIX-AAR: volume 0 < min 1000
+2026-03-15 17:34:04.596 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-FELIX-BOY: volume 0 < min 1000
+2026-03-15 17:34:04.596 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-FELIX-ANT: volume 0 < min 1000
+2026-03-15 17:34:04.596 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-FELIX-JOH: volume 0 < min 1000
+2026-03-15 17:34:04.596 | INFO     | src.strategies.filters:filter_markets:124 | Event KXPERFORMROLE007-FELIX: 0/9 markets passed filters
+2026-03-15 17:34:04.601 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-JOD: volume 0 < min 1000
+2026-03-15 17:34:04.601 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-ANA: volume 0 < min 1000
+2026-03-15 17:34:04.601 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-SYD: volume 0 < min 1000
+2026-03-15 17:34:04.601 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-FLO: volume 0 < min 1000
+2026-03-15 17:34:04.601 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-ZEN: volume 0 < min 1000
+2026-03-15 17:34:04.601 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-HUN: volume 0 < min 1000
+2026-03-15 17:34:04.601 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-DAI: volume 0 < min 1000
+2026-03-15 17:34:04.601 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-ANY: volume 0 < min 1000
+2026-03-15 17:34:04.601 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-LIL: volume 0 < min 1000
+2026-03-15 17:34:04.601 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXPERFORMROLE007-ADR: volume 0 < min 1000
+2026-03-15 17:34:04.601 | INFO     | src.strategies.filters:filter_markets:124 | Event KXPERFORMROLE007: 0/10 markets passed filters
+2026-03-15 17:34:04.606 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXYTUBESUBSISHOWSPEED-30: volume 0 < min 1000
+2026-03-15 17:34:04.606 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXYTUBESUBSISHOWSPEED-28: volume 0 < min 1000
+2026-03-15 17:34:04.606 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXYTUBESUBSISHOWSPEED-27: volume 0 < min 1000
+2026-03-15 17:34:04.606 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXYTUBESUBSISHOWSPEED-29: volume 0 < min 1000
+2026-03-15 17:34:04.606 | INFO     | src.strategies.filters:filter_markets:124 | Event KXYTUBESUBSISHOWSPEED: 0/4 markets passed filters
+2026-03-15 17:34:04.608 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXUSTAKEOVER-30: volume 0 < min 1000
+2026-03-15 17:34:04.608 | INFO     | src.strategies.filters:filter_markets:124 | Event KXUSTAKEOVER-30: 0/1 markets passed filters
+2026-03-15 17:34:04.609 | INFO     | src.strategies.filters:filter_markets:120 | Filter rejected KXTVSEASONRELEASEACOURTOFTHORNSANDROSES-30-JAN: volume 0 < min 1000
+2026-03-15 17:34:04.609 | INFO     | src.strategies.filters:filter_markets:124 | Event KXTVSEASONRELEASEACOURTOFTHORNSANDROSES: 0/1 markets passed filters
+2026-03-15 17:34:04.610 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXELONMARS-99 from research: volume 0 < 1000
+2026-03-15 17:34:04.610 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXELONMARS-99: 0 markets included (1 filtered by volume)
+2026-03-15 17:34:04.610 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXELONMARS-99 (this may take several minutes)...
+2026-03-15 17:34:05.109 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEWPOPE-70-FAMB from research: volume 0 < 1000
+2026-03-15 17:34:05.109 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEWPOPE-70-MZUP from research: volume 0 < 1000
+2026-03-15 17:34:05.109 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEWPOPE-70-PPIZ from research: volume 0 < 1000
+2026-03-15 17:34:05.109 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEWPOPE-70-PERD from research: volume 0 < 1000
+2026-03-15 17:34:05.109 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEWPOPE-70-PPAR from research: volume 0 < 1000
+2026-03-15 17:34:05.112 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEWPOPE-70-AARB from research: volume 0 < 1000
+2026-03-15 17:34:05.112 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEWPOPE-70-LANT from research: volume 0 < 1000
+2026-03-15 17:34:05.112 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXNEWPOPE-70: 0 markets included (7 filtered by volume)
+2026-03-15 17:34:05.112 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXNEWPOPE-70 (this may take several minutes)...
+2026-03-15 17:34:05.114 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXWARMING-50 from research: volume 0 < 1000
+2026-03-15 17:34:05.114 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXWARMING-50: 0 markets included (1 filtered by volume)
+2026-03-15 17:34:05.114 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXWARMING-50 (this may take several minutes)...
+2026-03-15 17:34:05.114 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXMARSVRAIL-50 from research: volume 0 < 1000
+2026-03-15 17:34:05.115 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXMARSVRAIL-50: 0 markets included (1 filtered by volume)
+2026-03-15 17:34:05.115 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXMARSVRAIL-50 (this may take several minutes)...
+2026-03-15 17:34:05.115 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXERUPTSUPER-0-50JAN01 from research: volume 0 < 1000
+2026-03-15 17:34:05.115 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXERUPTSUPER-0: 0 markets included (1 filtered by volume)
+2026-03-15 17:34:05.116 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXERUPTSUPER-0 (this may take several minutes)...
+2026-03-15 17:34:05.116 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXCOLONIZEMARS-50 from research: volume 0 < 1000
+2026-03-15 17:34:05.116 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXCOLONIZEMARS-50: 0 markets included (1 filtered by volume)
+2026-03-15 17:34:05.116 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXCOLONIZEMARS-50 (this may take several minutes)...
+2026-03-15 17:34:05.117 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERSONPRESMAM-45 from research: volume 0 < 1000
+2026-03-15 17:34:05.117 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXPERSONPRESMAM-45: 0 markets included (1 filtered by volume)
+2026-03-15 17:34:05.117 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXPERSONPRESMAM-45 (this may take several minutes)...
+2026-03-15 17:34:05.117 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXXISUCCESSOR-45JAN01-CJIN from research: volume 0 < 1000
+2026-03-15 17:34:05.117 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXXISUCCESSOR-45JAN01-ZGUO from research: volume 0 < 1000
+2026-03-15 17:34:05.117 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXXISUCCESSOR-45JAN01-CQI from research: volume 0 < 1000
+2026-03-15 17:34:05.118 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXXISUCCESSOR-45JAN01-YLI from research: volume 0 < 1000
+2026-03-15 17:34:05.118 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXXISUCCESSOR-45JAN01-ZLEJ from research: volume 0 < 1000
+2026-03-15 17:34:05.118 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXXISUCCESSOR-45JAN01-CMIN from research: volume 0 < 1000
+2026-03-15 17:34:05.118 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXXISUCCESSOR-45JAN01-DXUE from research: volume 0 < 1000
+2026-03-15 17:34:05.118 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXXISUCCESSOR-45JAN01-HLIF from research: volume 0 < 1000
+2026-03-15 17:34:05.118 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXXISUCCESSOR-45JAN01-LGAN from research: volume 0 < 1000
+2026-03-15 17:34:05.118 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXXISUCCESSOR-45JAN01-LQIA from research: volume 0 < 1000
+2026-03-15 17:34:05.118 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXXISUCCESSOR-45JAN01: 0 markets included (10 filtered by volume)
+2026-03-15 17:34:05.118 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXXISUCCESSOR-45JAN01 (this may take several minutes)...
+2026-03-15 17:34:05.118 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERSONPRESFUENTES-45 from research: volume 0 < 1000
+2026-03-15 17:34:05.118 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXPERSONPRESFUENTES-45: 0 markets included (1 filtered by volume)
+2026-03-15 17:34:05.118 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXPERSONPRESFUENTES-45 (this may take several minutes)...
+2026-03-15 17:34:05.119 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTISRAELPM-45JAN01-YCOH from research: volume 0 < 1000
+2026-03-15 17:34:05.119 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTISRAELPM-45JAN01-ALIE from research: volume 0 < 1000
+2026-03-15 17:34:05.119 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTISRAELPM-45JAN01-BGAN from research: volume 0 < 1000
+2026-03-15 17:34:05.120 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTISRAELPM-45JAN01-GEIS from research: volume 0 < 1000
+2026-03-15 17:34:05.120 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTISRAELPM-45JAN01-BSMO from research: volume 0 < 1000
+2026-03-15 17:34:05.121 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTISRAELPM-45JAN01-YLAP from research: volume 0 < 1000
+2026-03-15 17:34:05.121 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTISRAELPM-45JAN01-IKAT from research: volume 0 < 1000
+2026-03-15 17:34:05.121 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTISRAELPM-45JAN01-YLEV from research: volume 0 < 1000
+2026-03-15 17:34:05.121 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTISRAELPM-45JAN01-YGOL from research: volume 0 < 1000
+2026-03-15 17:34:05.121 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTISRAELPM-45JAN01-YGAL from research: volume 0 < 1000
+2026-03-15 17:34:05.122 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXNEXTISRAELPM-45JAN01: 0 markets included (10 filtered by volume)
+2026-03-15 17:34:05.122 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXNEXTISRAELPM-45JAN01 (this may take several minutes)...
+2026-03-15 17:34:40.273 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXPERSONPRESFUENTES-45
+2026-03-15 17:34:41.136 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXERUPTSUPER-0
+2026-03-15 17:34:41.969 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXELONMARS-99
+2026-03-15 17:34:42.982 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXCOLONIZEMARS-50
+2026-03-15 17:34:43.366 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXPERSONPRESMAM-45
+2026-03-15 17:34:44.905 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXXISUCCESSOR-45JAN01
+2026-03-15 17:34:47.028 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXMARSVRAIL-50
+2026-03-15 17:34:47.844 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXNEXTISRAELPM-45JAN01
+2026-03-15 17:34:50.710 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXNEWPOPE-70
+2026-03-15 17:35:17.604 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXWARMING-50
+2026-03-15 17:35:18.635 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXLALEADEROUT-45JAN01-COL from research: volume 0 < 1000
+2026-03-15 17:35:18.638 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXLALEADEROUT-45JAN01-MEX from research: volume 0 < 1000
+2026-03-15 17:35:18.638 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXLALEADEROUT-45JAN01-DOM from research: volume 0 < 1000
+2026-03-15 17:35:18.638 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXLALEADEROUT-45JAN01-BOL from research: volume 0 < 1000
+2026-03-15 17:35:18.638 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXLALEADEROUT-45JAN01-PAN from research: volume 0 < 1000
+2026-03-15 17:35:18.639 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXLALEADEROUT-45JAN01-ELS from research: volume 0 < 1000
+2026-03-15 17:35:18.639 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXLALEADEROUT-45JAN01-ARG from research: volume 0 < 1000
+2026-03-15 17:35:18.639 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXLALEADEROUT-45JAN01-JOS from research: volume 0 < 1000
+2026-03-15 17:35:18.639 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXLALEADEROUT-45JAN01-BR from research: volume 0 < 1000
+2026-03-15 17:35:18.639 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXLALEADEROUT-45JAN01-VEN from research: volume 0 < 1000
+2026-03-15 17:35:18.639 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXLALEADEROUT-45JAN01: 0 markets included (10 filtered by volume)
+2026-03-15 17:35:18.639 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXLALEADEROUT-45JAN01 (this may take several minutes)...
+2026-03-15 17:35:18.643 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXG7LEADEROUT-45JAN01-FMER from research: volume 0 < 1000
+2026-03-15 17:35:18.643 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXG7LEADEROUT-45JAN01-DJT from research: volume 0 < 1000
+2026-03-15 17:35:18.643 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXG7LEADEROUT-45JAN01-STAK from research: volume 0 < 1000
+2026-03-15 17:35:18.643 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXG7LEADEROUT-45JAN01-MCAR from research: volume 0 < 1000
+2026-03-15 17:35:18.643 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXG7LEADEROUT-45JAN01-EMAC from research: volume 0 < 1000
+2026-03-15 17:35:18.644 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXG7LEADEROUT-45JAN01-GMEL from research: volume 0 < 1000
+2026-03-15 17:35:18.644 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXG7LEADEROUT-45JAN01-KSTA from research: volume 0 < 1000
+2026-03-15 17:35:18.644 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXG7LEADEROUT-45JAN01: 0 markets included (7 filtered by volume)
+2026-03-15 17:35:18.644 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXG7LEADEROUT-45JAN01 (this may take several minutes)...
+2026-03-15 17:35:18.646 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXRAMPBREX-40-BREX from research: volume 0 < 1000
+2026-03-15 17:35:18.646 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXRAMPBREX-40-RAMP from research: volume 0 < 1000
+2026-03-15 17:35:18.646 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXRAMPBREX-40: 0 markets included (2 filtered by volume)
+2026-03-15 17:35:18.646 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXRAMPBREX-40 (this may take several minutes)...
+2026-03-15 17:35:18.648 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXOAIANTH-40-ANTH from research: volume 0 < 1000
+2026-03-15 17:35:18.648 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXOAIANTH-40-OAI from research: volume 0 < 1000
+2026-03-15 17:35:18.648 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXOAIANTH-40: 0 markets included (2 filtered by volume)
+2026-03-15 17:35:18.648 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXOAIANTH-40 (this may take several minutes)...
+2026-03-15 17:35:18.650 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXFUSION-40-JAN01 from research: volume 0 < 1000
+2026-03-15 17:35:18.650 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXFUSION-30-JAN01 from research: volume 0 < 1000
+2026-03-15 17:35:18.650 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXFUSION-35-JAN01 from research: volume 0 < 1000
+2026-03-15 17:35:18.650 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXFUSION: 0 markets included (3 filtered by volume)
+2026-03-15 17:35:18.650 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXFUSION (this may take several minutes)...
+2026-03-15 17:35:18.652 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXDEELRIP-40-DEEL from research: volume 0 < 1000
+2026-03-15 17:35:18.652 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXDEELRIP-40-RIPP from research: volume 0 < 1000
+2026-03-15 17:35:18.652 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXDEELRIP-40: 0 markets included (2 filtered by volume)
+2026-03-15 17:35:18.652 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXDEELRIP-40 (this may take several minutes)...
+2026-03-15 17:35:18.653 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPOPCHANGESTATE10-35 from research: volume 0 < 1000
+2026-03-15 17:35:18.653 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXPOPCHANGESTATE10-35: 0 markets included (1 filtered by volume)
+2026-03-15 17:35:18.654 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXPOPCHANGESTATE10-35 (this may take several minutes)...
+2026-03-15 17:35:18.662 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXEARTHQUAKECALIFORNIA-35 from research: volume 0 < 1000
+2026-03-15 17:35:18.662 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXEARTHQUAKECALIFORNIA-35: 0 markets included (1 filtered by volume)
+2026-03-15 17:35:18.662 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXEARTHQUAKECALIFORNIA-35 (this may take several minutes)...
+2026-03-15 17:35:18.663 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXROBOTMARS-35 from research: volume 0 < 1000
+2026-03-15 17:35:18.664 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXROBOTMARS-35: 0 markets included (1 filtered by volume)
+2026-03-15 17:35:18.664 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXROBOTMARS-35 (this may take several minutes)...
+2026-03-15 17:35:18.665 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMBONDSONG-35-TAY from research: volume 0 < 1000
+2026-03-15 17:35:18.665 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMBONDSONG-35-HAR from research: volume 0 < 1000
+2026-03-15 17:35:18.665 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMBONDSONG-35-LAD from research: volume 0 < 1000
+2026-03-15 17:35:18.665 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMBONDSONG-35-WEE from research: volume 0 < 1000
+2026-03-15 17:35:18.665 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMBONDSONG-35-U2 from research: volume 0 < 1000
+2026-03-15 17:35:18.665 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMBONDSONG-35-ELT from research: volume 0 < 1000
+2026-03-15 17:35:18.665 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMBONDSONG-35-LAN from research: volume 0 < 1000
+2026-03-15 17:35:18.665 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMBONDSONG-35-SAM from research: volume 0 < 1000
+2026-03-15 17:35:18.665 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMBONDSONG-35-ED from research: volume 0 < 1000
+2026-03-15 17:35:18.665 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMBONDSONG-35-CHA from research: volume 0 < 1000
+2026-03-15 17:35:18.665 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXPERFORMBONDSONG-35: 0 markets included (10 filtered by volume)
+2026-03-15 17:35:18.665 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXPERFORMBONDSONG-35 (this may take several minutes)...
+2026-03-15 17:35:45.827 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXRAMPBREX-40
+2026-03-15 17:35:48.571 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXEARTHQUAKECALIFORNIA-35
+2026-03-15 17:35:50.193 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXFUSION
+2026-03-15 17:35:52.405 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXPERFORMBONDSONG-35
+2026-03-15 17:35:52.918 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXOAIANTH-40
+2026-03-15 17:35:53.148 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXDEELRIP-40
+2026-03-15 17:35:57.003 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXPOPCHANGESTATE10-35
+2026-03-15 17:35:57.136 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXLALEADEROUT-45JAN01
+2026-03-15 17:35:59.017 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXROBOTMARS-35
+2026-03-15 17:36:04.819 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXG7LEADEROUT-45JAN01
+2026-03-15 17:36:05.843 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEWPOPE-35-RLEO from research: volume 0 < 1000
+2026-03-15 17:36:05.844 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEWPOPE-35-MZUP from research: volume 0 < 1000
+2026-03-15 17:36:05.844 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEWPOPE-35-PERD from research: volume 0 < 1000
+2026-03-15 17:36:05.844 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEWPOPE-35-PPAR from research: volume 0 < 1000
+2026-03-15 17:36:05.844 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEWPOPE-35-LANT from research: volume 0 < 1000
+2026-03-15 17:36:05.844 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXNEWPOPE-35: 0 markets included (5 filtered by volume)
+2026-03-15 17:36:05.845 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXNEWPOPE-35 (this may take several minutes)...
+2026-03-15 17:36:05.849 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXJOHNNYDEPP-35-JOH from research: volume 0 < 1000
+2026-03-15 17:36:05.849 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXJOHNNYDEPP-35: 0 markets included (1 filtered by volume)
+2026-03-15 17:36:05.849 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXJOHNNYDEPP-35 (this may take several minutes)...
+2026-03-15 17:36:05.851 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXBRUVSEAT-35 from research: volume 0 < 1000
+2026-03-15 17:36:05.851 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXBRUVSEAT-35: 0 markets included (1 filtered by volume)
+2026-03-15 17:36:05.852 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXBRUVSEAT-35 (this may take several minutes)...
+2026-03-15 17:36:05.853 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAFRICALEADEROUT-35-AT from research: volume 0 < 1000
+2026-03-15 17:36:05.853 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAFRICALEADEROUT-35-BT from research: volume 0 < 1000
+2026-03-15 17:36:05.853 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAFRICALEADEROUT-35-EM from research: volume 0 < 1000
+2026-03-15 17:36:05.853 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAFRICALEADEROUT-35-FT from research: volume 0 < 1000
+2026-03-15 17:36:05.854 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAFRICALEADEROUT-35-WR from research: volume 0 < 1000
+2026-03-15 17:36:05.854 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAFRICALEADEROUT-35-TAS from research: volume 0 < 1000
+2026-03-15 17:36:05.854 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAFRICALEADEROUT-35-CR from research: volume 0 < 1000
+2026-03-15 17:36:05.854 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAFRICALEADEROUT-35-PK from research: volume 0 < 1000
+2026-03-15 17:36:05.854 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAFRICALEADEROUT-35-JM from research: volume 0 < 1000
+2026-03-15 17:36:05.854 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAFRICALEADEROUT-35-AFES from research: volume 0 < 1000
+2026-03-15 17:36:05.854 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXAFRICALEADEROUT-35: 0 markets included (10 filtered by volume)
+2026-03-15 17:36:05.854 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXAFRICALEADEROUT-35 (this may take several minutes)...
+2026-03-15 17:36:05.857 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXACTORSONNYCROCKETT-35-RIC from research: volume 0 < 1000
+2026-03-15 17:36:05.857 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXACTORSONNYCROCKETT-35-TOM from research: volume 0 < 1000
+2026-03-15 17:36:05.857 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXACTORSONNYCROCKETT-35-OSC from research: volume 0 < 1000
+2026-03-15 17:36:05.857 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXACTORSONNYCROCKETT-35-RYA from research: volume 0 < 1000
+2026-03-15 17:36:05.857 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXACTORSONNYCROCKETT-35-TAY from research: volume 0 < 1000
+2026-03-15 17:36:05.857 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXACTORSONNYCROCKETT-35-GAR from research: volume 0 < 1000
+2026-03-15 17:36:05.857 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXACTORSONNYCROCKETT-35-PED from research: volume 0 < 1000
+2026-03-15 17:36:05.857 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXACTORSONNYCROCKETT-35-JAK from research: volume 0 < 1000
+2026-03-15 17:36:05.858 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXACTORSONNYCROCKETT-35-GLE from research: volume 0 < 1000
+2026-03-15 17:36:05.858 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXACTORSONNYCROCKETT-35-MIL from research: volume 0 < 1000
+2026-03-15 17:36:05.858 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXACTORSONNYCROCKETT-35: 0 markets included (10 filtered by volume)
+2026-03-15 17:36:05.858 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXACTORSONNYCROCKETT-35 (this may take several minutes)...
+2026-03-15 17:36:05.860 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXFDATYPE1DIABETES-33 from research: volume 0 < 1000
+2026-03-15 17:36:05.860 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXFDATYPE1DIABETES-33: 0 markets included (1 filtered by volume)
+2026-03-15 17:36:05.860 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXFDATYPE1DIABETES-33 (this may take several minutes)...
+2026-03-15 17:36:05.862 | DEBUG    | src.research.octagon:research_event:54 | Filtering market EUCLIMATE-2030 from research: volume 0 < 1000
+2026-03-15 17:36:05.863 | INFO     | src.research.octagon:research_event:71 | Research prompt for EUCLIMATE: 0 markets included (1 filtered by volume)
+2026-03-15 17:36:05.863 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event EUCLIMATE (this may take several minutes)...
+2026-03-15 17:36:05.866 | DEBUG    | src.research.octagon:research_event:54 | Filtering market INDIACLIMATE-30 from research: volume 0 < 1000
+2026-03-15 17:36:05.866 | INFO     | src.research.octagon:research_event:71 | Research prompt for INDIACLIMATE-30: 0 markets included (1 filtered by volume)
+2026-03-15 17:36:05.866 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event INDIACLIMATE-30 (this may take several minutes)...
+2026-03-15 17:36:05.877 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTSPEAKER-31-SSCA from research: volume 0 < 1000
+2026-03-15 17:36:05.877 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTSPEAKER-31-HJEF from research: volume 0 < 1000
+2026-03-15 17:36:05.877 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXNEXTSPEAKER-31-JJOR from research: volume 0 < 1000
+2026-03-15 17:36:05.877 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXNEXTSPEAKER-31: 0 markets included (3 filtered by volume)
+2026-03-15 17:36:05.877 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXNEXTSPEAKER-31 (this may take several minutes)...
+2026-03-15 17:36:05.878 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXMOONMAN-31-E from research: volume 0 < 1000
+2026-03-15 17:36:05.878 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXMOONMAN-31-I from research: volume 0 < 1000
+2026-03-15 17:36:05.878 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXMOONMAN-31-PRC from research: volume 0 < 1000
+2026-03-15 17:36:05.879 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXMOONMAN-31-R from research: volume 0 < 1000
+2026-03-15 17:36:05.879 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXMOONMAN-31-USA from research: volume 0 < 1000
+2026-03-15 17:36:05.879 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXMOONMAN-31: 0 markets included (5 filtered by volume)
+2026-03-15 17:36:05.879 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXMOONMAN-31 (this may take several minutes)...
+2026-03-15 17:36:35.891 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event INDIACLIMATE-30
+2026-03-15 17:36:37.598 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXMOONMAN-31
+2026-03-15 17:36:38.784 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXJOHNNYDEPP-35
+2026-03-15 17:36:41.387 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXBRUVSEAT-35
+2026-03-15 17:36:41.644 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event EUCLIMATE
+2026-03-15 17:36:42.316 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXFDATYPE1DIABETES-33
+2026-03-15 17:36:42.338 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXNEWPOPE-35
+2026-03-15 17:36:43.477 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXACTORSONNYCROCKETT-35
+2026-03-15 17:36:45.761 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXNEXTSPEAKER-31
+2026-03-15 17:36:50.384 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXAFRICALEADEROUT-35
+2026-03-15 17:36:51.408 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAGICO-COMP-27Q4 from research: volume 0 < 1000
+2026-03-15 17:36:51.408 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAGICO-COMP-29 from research: volume 0 < 1000
+2026-03-15 17:36:51.408 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAGICO-COMP-26Q3 from research: volume 0 < 1000
+2026-03-15 17:36:51.408 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAGICO-COMP-27Q3 from research: volume 0 < 1000
+2026-03-15 17:36:51.408 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAGICO-COMP-28Q2 from research: volume 0 < 1000
+2026-03-15 17:36:51.408 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAGICO-COMP-28Q3 from research: volume 0 < 1000
+2026-03-15 17:36:51.408 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAGICO-COMP-26Q2 from research: volume 0 < 1000
+2026-03-15 17:36:51.408 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAGICO-COMP-30 from research: volume 0 < 1000
+2026-03-15 17:36:51.409 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAGICO-COMP-27Q2 from research: volume 0 < 1000
+2026-03-15 17:36:51.409 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXAGICO-COMP-27Q1 from research: volume 0 < 1000
+2026-03-15 17:36:51.409 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXAGICO-COMP: 0 markets included (10 filtered by volume)
+2026-03-15 17:36:51.409 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXAGICO-COMP (this may take several minutes)...
+2026-03-15 17:36:51.412 | DEBUG    | src.research.octagon:research_event:54 | Filtering market USCLIMATE-2030 from research: volume 0 < 1000
+2026-03-15 17:36:51.412 | DEBUG    | src.research.octagon:research_event:54 | Filtering market USCLIMATE-2025 from research: volume 0 < 1000
+2026-03-15 17:36:51.413 | INFO     | src.research.octagon:research_event:71 | Research prompt for USCLIMATE: 0 markets included (2 filtered by volume)
+2026-03-15 17:36:51.413 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event USCLIMATE (this may take several minutes)...
+2026-03-15 17:36:51.415 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTVSEASONRELEASETHELASTOFUS-26-OCT from research: volume 0 < 1000
+2026-03-15 17:36:51.415 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTVSEASONRELEASETHELASTOFUS-27-JUL from research: volume 0 < 1000
+2026-03-15 17:36:51.415 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTVSEASONRELEASETHELASTOFUS-28-JAN from research: volume 0 < 1000
+2026-03-15 17:36:51.415 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTVSEASONRELEASETHELASTOFUS-26-APR from research: volume 0 < 1000
+2026-03-15 17:36:51.415 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTVSEASONRELEASETHELASTOFUS-26-JUL from research: volume 0 < 1000
+2026-03-15 17:36:51.415 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTVSEASONRELEASETHELASTOFUS-27-APR from research: volume 0 < 1000
+2026-03-15 17:36:51.416 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTVSEASONRELEASETHELASTOFUS-27-JAN from research: volume 0 < 1000
+2026-03-15 17:36:51.416 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXTVSEASONRELEASETHELASTOFUS: 0 markets included (7 filtered by volume)
+2026-03-15 17:36:51.416 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXTVSEASONRELEASETHELASTOFUS (this may take several minutes)...
+2026-03-15 17:36:51.417 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPRIMEENGCONSUMPTION-30-BIOFUEL from research: volume 0 < 1000
+2026-03-15 17:36:51.418 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPRIMEENGCONSUMPTION-30-BIOMASS from research: volume 0 < 1000
+2026-03-15 17:36:51.418 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPRIMEENGCONSUMPTION-30-GAS from research: volume 0 < 1000
+2026-03-15 17:36:51.418 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPRIMEENGCONSUMPTION-30-HYDROPOWER from research: volume 0 < 1000
+2026-03-15 17:36:51.418 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPRIMEENGCONSUMPTION-30-WIND from research: volume 0 < 1000
+2026-03-15 17:36:51.418 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPRIMEENGCONSUMPTION-30-SOLAR from research: volume 0 < 1000
+2026-03-15 17:36:51.418 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPRIMEENGCONSUMPTION-30-COAL from research: volume 0 < 1000
+2026-03-15 17:36:51.418 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPRIMEENGCONSUMPTION-30-NUCLEAR from research: volume 0 < 1000
+2026-03-15 17:36:51.418 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPRIMEENGCONSUMPTION-30-RENEWABLE from research: volume 0 < 1000
+2026-03-15 17:36:51.418 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPRIMEENGCONSUMPTION-30-OIL from research: volume 0 < 1000
+2026-03-15 17:36:51.418 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXPRIMEENGCONSUMPTION-30: 0 markets included (10 filtered by volume)
+2026-03-15 17:36:51.418 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXPRIMEENGCONSUMPTION-30 (this may take several minutes)...
+2026-03-15 17:36:51.420 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXACTORTOMCRUZ-30-TOM from research: volume 0 < 1000
+2026-03-15 17:36:51.420 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXACTORTOMCRUZ-30: 0 markets included (1 filtered by volume)
+2026-03-15 17:36:51.421 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXACTORTOMCRUZ-30 (this may take several minutes)...
+2026-03-15 17:36:51.422 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXINDIANAPOWELL-30-GLE from research: volume 0 < 1000
+2026-03-15 17:36:51.423 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXINDIANAPOWELL-30: 0 markets included (1 filtered by volume)
+2026-03-15 17:36:51.423 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXINDIANAPOWELL-30 (this may take several minutes)...
+2026-03-15 17:36:51.425 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXCANADACUP-30 from research: volume 0 < 1000
+2026-03-15 17:36:51.425 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXCANADACUP-30: 0 markets included (1 filtered by volume)
+2026-03-15 17:36:51.425 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXCANADACUP-30 (this may take several minutes)...
+2026-03-15 17:36:51.427 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTIMEDECADE20S-30-SALT from research: volume 0 < 1000
+2026-03-15 17:36:51.427 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTIMEDECADE20S-30-TAY from research: volume 0 < 1000
+2026-03-15 17:36:51.427 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTIMEDECADE20S-30-JHUA from research: volume 0 < 1000
+2026-03-15 17:36:51.427 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTIMEDECADE20S-30-XJIN from research: volume 0 < 1000
+2026-03-15 17:36:51.427 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTIMEDECADE20S-30-VZEL from research: volume 0 < 1000
+2026-03-15 17:36:51.427 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTIMEDECADE20S-30-EMUS from research: volume 0 < 1000
+2026-03-15 17:36:51.427 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXTIMEDECADE20S-30: 0 markets included (6 filtered by volume)
+2026-03-15 17:36:51.427 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXTIMEDECADE20S-30 (this may take several minutes)...
+2026-03-15 17:36:51.432 | DEBUG    | src.research.octagon:research_event:54 | Filtering market EVSHARE-30JAN-50 from research: volume 0 < 1000
+2026-03-15 17:36:51.432 | DEBUG    | src.research.octagon:research_event:54 | Filtering market EVSHARE-30JAN-10 from research: volume 0 < 1000
+2026-03-15 17:36:51.432 | DEBUG    | src.research.octagon:research_event:54 | Filtering market EVSHARE-30JAN-20 from research: volume 0 < 1000
+2026-03-15 17:36:51.432 | DEBUG    | src.research.octagon:research_event:54 | Filtering market EVSHARE-30JAN-30 from research: volume 0 < 1000
+2026-03-15 17:36:51.432 | INFO     | src.research.octagon:research_event:71 | Research prompt for EVSHARE-30JAN: 0 markets included (4 filtered by volume)
+2026-03-15 17:36:51.433 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event EVSHARE-30JAN (this may take several minutes)...
+2026-03-15 17:36:51.434 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXU3MAX-30-8 from research: volume 0 < 1000
+2026-03-15 17:36:51.434 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXU3MAX-30-9 from research: volume 0 < 1000
+2026-03-15 17:36:51.434 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXU3MAX-30-7 from research: volume 0 < 1000
+2026-03-15 17:36:51.434 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXU3MAX-30-15 from research: volume 0 < 1000
+2026-03-15 17:36:51.434 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXU3MAX-30-20 from research: volume 0 < 1000
+2026-03-15 17:36:51.434 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXU3MAX-30-12 from research: volume 0 < 1000
+2026-03-15 17:36:51.434 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXU3MAX-30-10 from research: volume 0 < 1000
+2026-03-15 17:36:51.434 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXU3MAX-30-5 from research: volume 0 < 1000
+2026-03-15 17:36:51.434 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXU3MAX-30-6 from research: volume 0 < 1000
+2026-03-15 17:36:51.434 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXU3MAX-30-17 from research: volume 0 < 1000
+2026-03-15 17:36:51.434 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXU3MAX-30: 0 markets included (10 filtered by volume)
+2026-03-15 17:36:51.435 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXU3MAX-30 (this may take several minutes)...
+2026-03-15 17:37:20.162 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXINDIANAPOWELL-30
+2026-03-15 17:37:25.535 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXTVSEASONRELEASETHELASTOFUS
+2026-03-15 17:37:25.901 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXACTORTOMCRUZ-30
+2026-03-15 17:37:26.389 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event USCLIMATE
+2026-03-15 17:37:26.791 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXPRIMEENGCONSUMPTION-30
+2026-03-15 17:37:27.575 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXTIMEDECADE20S-30
+2026-03-15 17:37:31.187 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXAGICO-COMP
+2026-03-15 17:37:31.454 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event EVSHARE-30JAN
+2026-03-15 17:37:31.956 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXCANADACUP-30
+2026-03-15 17:37:34.859 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXU3MAX-30
+2026-03-15 17:37:35.930 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLEBRITNEY-MIL from research: volume 0 < 1000
+2026-03-15 17:37:35.931 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLEBRITNEY-FLO from research: volume 0 < 1000
+2026-03-15 17:37:35.931 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLEBRITNEY-SYD from research: volume 0 < 1000
+2026-03-15 17:37:35.931 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLEBRITNEY-EMM from research: volume 0 < 1000
+2026-03-15 17:37:35.931 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLEBRITNEY-CHL from research: volume 0 < 1000
+2026-03-15 17:37:35.931 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLEBRITNEY-SAB from research: volume 0 < 1000
+2026-03-15 17:37:35.931 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLEBRITNEY-ADD from research: volume 0 < 1000
+2026-03-15 17:37:35.931 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLEBRITNEY-ANY from research: volume 0 < 1000
+2026-03-15 17:37:35.931 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLEBRITNEY-MAR from research: volume 0 < 1000
+2026-03-15 17:37:35.931 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLEBRITNEY-OLI from research: volume 0 < 1000
+2026-03-15 17:37:35.931 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXPERFORMROLEBRITNEY: 0 markets included (10 filtered by volume)
+2026-03-15 17:37:35.931 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXPERFORMROLEBRITNEY (this may take several minutes)...
+2026-03-15 17:37:35.935 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-VILLAIN-OSC from research: volume 0 < 1000
+2026-03-15 17:37:35.935 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-VILLAIN-IDR from research: volume 0 < 1000
+2026-03-15 17:37:35.935 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-VILLAIN-BAR from research: volume 0 < 1000
+2026-03-15 17:37:35.935 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-VILLAIN-ADA from research: volume 0 < 1000
+2026-03-15 17:37:35.935 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-VILLAIN-PET from research: volume 0 < 1000
+2026-03-15 17:37:35.935 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-VILLAIN-CIL from research: volume 0 < 1000
+2026-03-15 17:37:35.935 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-VILLAIN-ROS from research: volume 0 < 1000
+2026-03-15 17:37:35.935 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXPERFORMROLE007-VILLAIN: 0 markets included (7 filtered by volume)
+2026-03-15 17:37:35.936 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXPERFORMROLE007-VILLAIN (this may take several minutes)...
+2026-03-15 17:37:35.938 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-Q-DEV from research: volume 0 < 1000
+2026-03-15 17:37:35.938 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-Q-TOM from research: volume 0 < 1000
+2026-03-15 17:37:35.938 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-Q-BEN from research: volume 0 < 1000
+2026-03-15 17:37:35.938 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-Q-AND from research: volume 0 < 1000
+2026-03-15 17:37:35.938 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-Q-RIC from research: volume 0 < 1000
+2026-03-15 17:37:35.938 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXPERFORMROLE007-Q: 0 markets included (5 filtered by volume)
+2026-03-15 17:37:35.938 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXPERFORMROLE007-Q (this may take several minutes)...
+2026-03-15 17:37:35.940 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-MONEYPENNY-JUN from research: volume 0 < 1000
+2026-03-15 17:37:35.940 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-MONEYPENNY-PHO from research: volume 0 < 1000
+2026-03-15 17:37:35.940 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-MONEYPENNY-MEG from research: volume 0 < 1000
+2026-03-15 17:37:35.941 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-MONEYPENNY-ALI from research: volume 0 < 1000
+2026-03-15 17:37:35.941 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-MONEYPENNY-JOD from research: volume 0 < 1000
+2026-03-15 17:37:35.941 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-MONEYPENNY-NAO from research: volume 0 < 1000
+2026-03-15 17:37:35.941 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-MONEYPENNY-EMM from research: volume 0 < 1000
+2026-03-15 17:37:35.941 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-MONEYPENNY-JODI from research: volume 0 < 1000
+2026-03-15 17:37:35.941 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXPERFORMROLE007-MONEYPENNY: 0 markets included (8 filtered by volume)
+2026-03-15 17:37:35.941 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXPERFORMROLE007-MONEYPENNY (this may take several minutes)...
+2026-03-15 17:37:35.943 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-M-RAL from research: volume 0 < 1000
+2026-03-15 17:37:35.943 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-M-IDR from research: volume 0 < 1000
+2026-03-15 17:37:35.943 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-M-OLI from research: volume 0 < 1000
+2026-03-15 17:37:35.943 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-M-CHA from research: volume 0 < 1000
+2026-03-15 17:37:35.943 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-M-MAR from research: volume 0 < 1000
+2026-03-15 17:37:35.943 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXPERFORMROLE007-M: 0 markets included (5 filtered by volume)
+2026-03-15 17:37:35.944 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXPERFORMROLE007-M (this may take several minutes)...
+2026-03-15 17:37:35.946 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-FELIX-ALB from research: volume 0 < 1000
+2026-03-15 17:37:35.946 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-FELIX-CHI from research: volume 0 < 1000
+2026-03-15 17:37:35.947 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-FELIX-WYA from research: volume 0 < 1000
+2026-03-15 17:37:35.947 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-FELIX-STE from research: volume 0 < 1000
+2026-03-15 17:37:35.947 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-FELIX-SET from research: volume 0 < 1000
+2026-03-15 17:37:35.947 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-FELIX-AAR from research: volume 0 < 1000
+2026-03-15 17:37:35.947 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-FELIX-BOY from research: volume 0 < 1000
+2026-03-15 17:37:35.947 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-FELIX-ANT from research: volume 0 < 1000
+2026-03-15 17:37:35.947 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-FELIX-JOH from research: volume 0 < 1000
+2026-03-15 17:37:35.947 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXPERFORMROLE007-FELIX: 0 markets included (9 filtered by volume)
+2026-03-15 17:37:35.947 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXPERFORMROLE007-FELIX (this may take several minutes)...
+2026-03-15 17:37:35.949 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-JOD from research: volume 0 < 1000
+2026-03-15 17:37:35.949 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-ANA from research: volume 0 < 1000
+2026-03-15 17:37:35.950 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-SYD from research: volume 0 < 1000
+2026-03-15 17:37:35.950 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-FLO from research: volume 0 < 1000
+2026-03-15 17:37:35.950 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-ZEN from research: volume 0 < 1000
+2026-03-15 17:37:35.950 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-HUN from research: volume 0 < 1000
+2026-03-15 17:37:35.950 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-DAI from research: volume 0 < 1000
+2026-03-15 17:37:35.950 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-ANY from research: volume 0 < 1000
+2026-03-15 17:37:35.950 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-LIL from research: volume 0 < 1000
+2026-03-15 17:37:35.950 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXPERFORMROLE007-ADR from research: volume 0 < 1000
+2026-03-15 17:37:35.950 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXPERFORMROLE007: 0 markets included (10 filtered by volume)
+2026-03-15 17:37:35.950 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXPERFORMROLE007 (this may take several minutes)...
+2026-03-15 17:37:35.952 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXYTUBESUBSISHOWSPEED-30 from research: volume 0 < 1000
+2026-03-15 17:37:35.953 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXYTUBESUBSISHOWSPEED-28 from research: volume 0 < 1000
+2026-03-15 17:37:35.953 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXYTUBESUBSISHOWSPEED-27 from research: volume 0 < 1000
+2026-03-15 17:37:35.953 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXYTUBESUBSISHOWSPEED-29 from research: volume 0 < 1000
+2026-03-15 17:37:35.953 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXYTUBESUBSISHOWSPEED: 0 markets included (4 filtered by volume)
+2026-03-15 17:37:35.953 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXYTUBESUBSISHOWSPEED (this may take several minutes)...
+2026-03-15 17:37:35.958 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXUSTAKEOVER-30 from research: volume 0 < 1000
+2026-03-15 17:37:35.958 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXUSTAKEOVER-30: 0 markets included (1 filtered by volume)
+2026-03-15 17:37:35.959 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXUSTAKEOVER-30 (this may take several minutes)...
+2026-03-15 17:37:35.960 | DEBUG    | src.research.octagon:research_event:54 | Filtering market KXTVSEASONRELEASEACOURTOFTHORNSANDROSES-30-JAN from research: volume 0 < 1000
+2026-03-15 17:37:35.960 | INFO     | src.research.octagon:research_event:71 | Research prompt for KXTVSEASONRELEASEACOURTOFTHORNSANDROSES: 0 markets included (1 filtered by volume)
+2026-03-15 17:37:35.960 | INFO     | src.research.octagon:research_event:106 | Starting deep research for event KXTVSEASONRELEASEACOURTOFTHORNSANDROSES (this may take several minutes)...
+2026-03-15 17:38:07.718 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXPERFORMROLE007-Q
+2026-03-15 17:38:07.888 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXYTUBESUBSISHOWSPEED
+2026-03-15 17:38:08.294 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXTVSEASONRELEASEACOURTOFTHORNSANDROSES
+2026-03-15 17:38:09.161 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXPERFORMROLE007-FELIX
+2026-03-15 17:38:09.862 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXPERFORMROLEBRITNEY
+2026-03-15 17:38:10.548 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXPERFORMROLE007-VILLAIN
+2026-03-15 17:38:10.717 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXUSTAKEOVER-30
+2026-03-15 17:38:11.317 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXPERFORMROLE007-M
+2026-03-15 17:38:11.354 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXPERFORMROLE007-MONEYPENNY
+2026-03-15 17:38:11.951 | INFO     | src.research.octagon:research_event:118 | Completed deep research for event KXPERFORMROLE007
+2026-03-15 17:38:16.472 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXELONMARS-99: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-15 17:38:16.473 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXNEWPOPE-70: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-15 17:38:16.473 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXWARMING-50: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-15 17:38:16.473 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXMARSVRAIL-50: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-15 17:38:16.473 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXERUPTSUPER-0: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-03-15 17:38:16.474 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXCOLONIZEMARS-50: Task <Task pending name='Task-151' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.474 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXPERSONPRESMAM-45: Task <Task pending name='Task-152' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.474 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXXISUCCESSOR-45JAN01: Task <Task pending name='Task-153' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.475 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXPERSONPRESFUENTES-45: Task <Task pending name='Task-154' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.475 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXNEXTISRAELPM-45JAN01: Task <Task pending name='Task-155' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.475 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXLALEADEROUT-45JAN01: Task <Task pending name='Task-156' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.475 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXG7LEADEROUT-45JAN01: Task <Task pending name='Task-157' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.475 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXRAMPBREX-40: Task <Task pending name='Task-158' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.475 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXOAIANTH-40: Task <Task pending name='Task-159' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.475 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXFUSION: Task <Task pending name='Task-160' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.475 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXDEELRIP-40: Task <Task pending name='Task-161' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.475 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXPOPCHANGESTATE10-35: Task <Task pending name='Task-162' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.475 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXEARTHQUAKECALIFORNIA-35: Task <Task pending name='Task-163' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.476 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXROBOTMARS-35: Task <Task pending name='Task-164' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.476 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXPERFORMBONDSONG-35: Task <Task pending name='Task-165' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.476 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXNEWPOPE-35: Task <Task pending name='Task-166' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.476 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXJOHNNYDEPP-35: Task <Task pending name='Task-167' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.476 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXBRUVSEAT-35: Task <Task pending name='Task-168' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.476 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXAFRICALEADEROUT-35: Task <Task pending name='Task-169' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.476 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXACTORSONNYCROCKETT-35: Task <Task pending name='Task-170' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.476 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXFDATYPE1DIABETES-33: Task <Task pending name='Task-171' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.476 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for EUCLIMATE: Task <Task pending name='Task-172' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.477 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for INDIACLIMATE-30: Task <Task pending name='Task-173' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.477 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXNEXTSPEAKER-31: Task <Task pending name='Task-174' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.477 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXMOONMAN-31: Task <Task pending name='Task-175' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.477 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXAGICO-COMP: Task <Task pending name='Task-176' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.477 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for USCLIMATE: Task <Task pending name='Task-177' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.477 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXTVSEASONRELEASETHELASTOFUS: Task <Task pending name='Task-178' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.477 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXPRIMEENGCONSUMPTION-30: Task <Task pending name='Task-179' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.477 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXACTORTOMCRUZ-30: Task <Task pending name='Task-180' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.477 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXINDIANAPOWELL-30: Task <Task pending name='Task-181' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.477 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXCANADACUP-30: Task <Task pending name='Task-182' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.478 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXTIMEDECADE20S-30: Task <Task pending name='Task-183' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.478 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for EVSHARE-30JAN: Task <Task pending name='Task-184' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.478 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXU3MAX-30: Task <Task pending name='Task-185' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.478 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXPERFORMROLEBRITNEY: Task <Task pending name='Task-186' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.478 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXPERFORMROLE007-VILLAIN: Task <Task pending name='Task-187' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.478 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXPERFORMROLE007-Q: Task <Task pending name='Task-188' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.478 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXPERFORMROLE007-MONEYPENNY: Task <Task pending name='Task-189' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.478 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXPERFORMROLE007-M: Task <Task pending name='Task-190' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.478 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXPERFORMROLE007-FELIX: Task <Task pending name='Task-191' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.479 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXPERFORMROLE007: Task <Task pending name='Task-192' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.479 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXYTUBESUBSISHOWSPEED: Task <Task pending name='Task-193' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.479 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXUSTAKEOVER-30: Task <Task pending name='Task-194' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.479 | ERROR    | __main__:_batch_extract_probabilities:366 | Probability extraction failed for KXTVSEASONRELEASEACOURTOFTHORNSANDROSES: Task <Task pending name='Task-195' coro=<extract_probabilities_from_text() running at /Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/ai/client.py:182> cb=[gather.<locals>._done_callback() at /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py:764]> got Future <Future pending> attached to a different loop
+2026-03-15 17:38:16.487 | INFO     | src.telemetry.logger:log_run_summary:161 | ============================================================
+2026-03-15 17:38:16.487 | INFO     | src.telemetry.logger:log_run_summary:162 | RUN SUMMARY
+2026-03-15 17:38:16.487 | INFO     | src.telemetry.logger:log_run_summary:163 | ============================================================
+2026-03-15 17:38:16.487 | INFO     | src.telemetry.logger:log_run_summary:164 | Run ID:          a14f0180-88da-4eae-8a4a-ddac9e26b04e
+2026-03-15 17:38:16.487 | INFO     | src.telemetry.logger:log_run_summary:165 | Timestamp:       2026-03-16 00:38:16.485893+00:00
+2026-03-15 17:38:16.488 | INFO     | src.telemetry.logger:log_run_summary:166 | Events scanned:  150
+2026-03-15 17:38:16.488 | INFO     | src.telemetry.logger:log_run_summary:167 | Markets scanned: 223
+2026-03-15 17:38:16.488 | INFO     | src.telemetry.logger:log_run_summary:168 | Decisions made:  0
+2026-03-15 17:38:16.488 | INFO     | src.telemetry.logger:log_run_summary:169 | Bets placed:     0
+2026-03-15 17:38:16.488 | INFO     | src.telemetry.logger:log_run_summary:170 | Total wagered:   $0.00
+2026-03-15 17:38:16.488 | INFO     | src.telemetry.logger:log_run_summary:171 | Dry run:         True
+2026-03-15 17:38:16.488 | INFO     | src.telemetry.logger:log_run_summary:174 | ============================================================
+2026-03-15 17:38:16.489 | INFO     | src.telemetry.logger:log_run_summary:177 | RUN_SUMMARY: {'run_id': 'a14f0180-88da-4eae-8a4a-ddac9e26b04e', 'timestamp': datetime.datetime(2026, 3, 16, 0, 38, 16, 485893, tzinfo=datetime.timezone.utc), 'events_scanned': 150, 'markets_scanned': 223, 'decisions_made': 0, 'bets_placed': 0, 'total_wagered': 0.0, 'dry_run': True, 'errors': []}

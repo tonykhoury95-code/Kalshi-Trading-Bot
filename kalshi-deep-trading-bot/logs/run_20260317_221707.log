@@ -1,0 +1,2 @@
+2026-03-17 15:17:07.390 | INFO     | src.telemetry.logger:setup_logging:118 | Logging initialized (level=INFO, dir=./logs)
+2026-03-17 15:17:07.393 | INFO     | __main__:_run:103 | Arb scanner config: sports=['NBA', 'NFL', 'MLB', 'NHL', 'UFC', 'SOC', 'TEN'] threshold=2.0% interval=30s live_only=False

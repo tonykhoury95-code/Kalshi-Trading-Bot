@@ -1,0 +1,84 @@
+2026-03-15 17:08:13.674 | INFO     | src.telemetry.logger:setup_logging:118 | Logging initialized (level=INFO, dir=./logs)
+2026-03-15 17:08:13.681 | INFO     | src.portfolio.ledger:__init__:29 | Ledger initialized at data/ledger.db
+2026-03-15 17:08:13.688 | ERROR    | __main__:run:277 | Bot execution failed
+Traceback (most recent call last):
+
+  File "/Users/tonykhoury/Desktop/kalshi-deep-trading-bot/trading_bot.py", line 645, in <module>
+    cli()
+    └ <function cli at 0x1106f8ca0>
+
+  File "/Users/tonykhoury/Desktop/kalshi-deep-trading-bot/trading_bot.py", line 636, in cli
+    asyncio.run(main(live_trading=args.live, max_close_ts=max_close_ts))
+    │       │   │                 │    │                  └ None
+    │       │   │                 │    └ False
+    │       │   │                 └ Namespace(live=False, max_expiration_hours=None, dashboard=False)
+    │       │   └ <function main at 0x10441bee0>
+    │       └ <function run at 0x104575670>
+    └ <module 'asyncio' from '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/a...
+
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object main at 0x1106410c0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x104c32040>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 629, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x104c31f70>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 596, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x104c34af0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1890, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x104b40a60>
+    └ <Handle <TaskStepMethWrapper object at 0x110644250>()>
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x110644250>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x110644250>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x110644250>()>
+
+  File "/Users/tonykhoury/Desktop/kalshi-deep-trading-bot/trading_bot.py", line 576, in main
+    await bot.run()
+          │   └ <function TradingBot.run at 0x1106f88b0>
+          └ <__main__.TradingBot object at 0x110644eb0>
+
+> File "/Users/tonykhoury/Desktop/kalshi-deep-trading-bot/trading_bot.py", line 121, in run
+    await self.initialize()
+          │    └ <function TradingBot.initialize at 0x1106f8790>
+          └ <__main__.TradingBot object at 0x110644eb0>
+
+  File "/Users/tonykhoury/Desktop/kalshi-deep-trading-bot/trading_bot.py", line 87, in initialize
+    self.kalshi_client = KalshiClient(self.config.kalshi)
+    │    │               │            │    │      └ KalshiConfig(api_key='', private_key='', use_demo=True)
+    │    │               │            │    └ BotConfig(kalshi=KalshiConfig(api_key='', private_key='', use_demo=True), octagon=OctagonConfig(api_key='', base_url='https:/...
+    │    │               │            └ <__main__.TradingBot object at 0x110644eb0>
+    │    │               └ <class 'src.brokers.kalshi.client.KalshiClient'>
+    │    └ None
+    └ <__main__.TradingBot object at 0x110644eb0>
+
+  File "/Users/tonykhoury/Desktop/kalshi-deep-trading-bot/src/brokers/kalshi/client.py", line 43, in __init__
+    self._private_key = serialization.load_pem_private_key(
+    │                   │             └ <built-in function load_pem_private_key>
+    │                   └ <module 'cryptography.hazmat.primitives.serialization' from '/Users/tonykhoury/Desktop/kalshi-deep-trading-bot/.venv/lib/pyth...
+    └ <src.brokers.kalshi.client.KalshiClient object at 0x1105bff70>
+
+ValueError: Unable to load PEM file. See https://cryptography.io/en/latest/faq/#why-can-t-i-import-my-pem-file for more details. MalformedFraming
+2026-03-15 17:08:13.694 | INFO     | src.telemetry.logger:log_run_summary:161 | ============================================================
+2026-03-15 17:08:13.694 | INFO     | src.telemetry.logger:log_run_summary:162 | RUN SUMMARY
+2026-03-15 17:08:13.694 | INFO     | src.telemetry.logger:log_run_summary:163 | ============================================================
+2026-03-15 17:08:13.694 | INFO     | src.telemetry.logger:log_run_summary:164 | Run ID:          unknown
+2026-03-15 17:08:13.694 | INFO     | src.telemetry.logger:log_run_summary:165 | Timestamp:       2026-03-16 00:08:13.694560+00:00
+2026-03-15 17:08:13.694 | INFO     | src.telemetry.logger:log_run_summary:166 | Events scanned:  0
+2026-03-15 17:08:13.694 | INFO     | src.telemetry.logger:log_run_summary:167 | Markets scanned: 0
+2026-03-15 17:08:13.694 | INFO     | src.telemetry.logger:log_run_summary:168 | Decisions made:  0
+2026-03-15 17:08:13.694 | INFO     | src.telemetry.logger:log_run_summary:169 | Bets placed:     0
+2026-03-15 17:08:13.694 | INFO     | src.telemetry.logger:log_run_summary:170 | Total wagered:   $0.00
+2026-03-15 17:08:13.694 | INFO     | src.telemetry.logger:log_run_summary:171 | Dry run:         True
+2026-03-15 17:08:13.694 | WARNING  | src.telemetry.logger:log_run_summary:173 | Errors (1): ['Unable to load PEM file. See https://cryptography.io/en/latest/faq/#why-can-t-i-import-my-pem-file for more details. MalformedFraming']
+2026-03-15 17:08:13.694 | INFO     | src.telemetry.logger:log_run_summary:174 | ============================================================
+2026-03-15 17:08:13.695 | INFO     | src.telemetry.logger:log_run_summary:177 | RUN_SUMMARY: {'run_id': 'unknown', 'timestamp': datetime.datetime(2026, 3, 16, 0, 8, 13, 694560, tzinfo=datetime.timezone.utc), 'events_scanned': 0, 'markets_scanned': 0, 'decisions_made': 0, 'bets_placed': 0, 'total_wagered': 0.0, 'dry_run': True, 'errors': ['Unable to load PEM file. See https://cryptography.io/en/latest/faq/#why-can-t-i-import-my-pem-file for more details. MalformedFraming']}

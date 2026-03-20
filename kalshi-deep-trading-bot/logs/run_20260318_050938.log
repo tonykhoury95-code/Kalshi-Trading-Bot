@@ -1,0 +1,4 @@
+2026-03-17 22:09:38.315 | INFO     | src.telemetry.logger:setup_logging:118 | Logging initialized (level=INFO, dir=./logs)
+2026-03-17 22:09:38.317 | INFO     | __main__:_run:104 | Arb scanner config: sports=['NBA', 'NFL', 'MLB', 'NHL', 'UFC', 'SOC', 'TEN'] threshold=2.0% interval=90s live_only=False
+2026-03-17 22:09:38.318 | INFO     | src.sportsbook.registry:get_provider:65 | OddsProvider: none configured — cross-exchange comparison disabled
+2026-03-17 22:09:38.318 | INFO     | __main__:_run:120 | Odds provider: none (markets=['h2h', 'spreads', 'totals'], bookmaker=fanduel)

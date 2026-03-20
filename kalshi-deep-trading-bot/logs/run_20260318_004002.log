@@ -1,0 +1,4 @@
+2026-03-17 17:40:02.743 | INFO     | src.telemetry.logger:setup_logging:118 | Logging initialized (level=INFO, dir=./logs)
+2026-03-17 17:40:02.751 | INFO     | __main__:_run:104 | Arb scanner config: sports=['NBA', 'NFL', 'MLB', 'NHL', 'UFC', 'SOC', 'TEN'] threshold=5.0% interval=90s live_only=False
+2026-03-17 17:40:02.751 | INFO     | src.sportsbook.registry:get_provider:53 | OddsProvider: none configured — cross-exchange comparison disabled
+2026-03-17 17:40:02.751 | INFO     | __main__:_run:119 | Odds provider: none
